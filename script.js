@@ -55,10 +55,10 @@ function checkAnswer() {
 
 document.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
-        checkAnswer(); // Check answer when "Enter" is pressed
+        checkAnswer();
     }
     if (event.key === " ") {
-        reveal(); // Trigger reveal when "Space" is pressed
-        event.preventDefault(); // Prevent default spacebar behavior (scrolling)
+        reveal();
+        event.preventDefault();
     }
 });
